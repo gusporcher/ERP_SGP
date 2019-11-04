@@ -34,7 +34,7 @@ public interface GenericDAO<T>{
 	public T getObject(int id) throws Exception;
 	
 	/**
-	 * list all records from database
+	 * get all records from database
 	 * @return list of all records found on database
 	 * @throws Exception
 	 */
